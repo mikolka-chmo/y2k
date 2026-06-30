@@ -156,10 +156,52 @@ line-height: 32.5px;
 border-bottom :4px solid var(--hover-color);
 line-height: ;
 }
+.advenages_txt{
+    color: var(--tittle-color);
+font-family: "Space Grotesk";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+display: flex;
+align-items: center;
+}
 
+.advenages_txt::before{
+    content: "";
+    display: block;
+    margin-right :32px; 
+    height: 113px;
+    width: 8px;
+    color: var(--active-color);
+}
+.adventages_list{
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.adventages_desk{
+display: flex;
+align-items: center;
+gap: 16px;
+color: var(--tittle-color);
+font-family: "Space Grotesk";
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1.4px;
+text-transform: uppercase;
 
+}
+.adventages_desk::before{
+    content: "";
+    display: block;
+    width: 32.0px;
+height: 2.0px;
+background: var(--hover-color);
 
-
+}
 
 
 
@@ -168,4 +210,16 @@ line-height: ;
     width: 552.0px;
 height: 736.0px;
 border-radius: 48px;
+}
+.advenages_img::before{
+    content: "";
+    width: 160.0px;
+height: 160.0px;
+position: absolute;
+right: -40px;
+top: -40px;
+border-radius: 9999px;
+background: rgba(253, 211, 77, 0.20);
+filter: blur(32px);
+
 }
