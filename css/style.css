@@ -5,7 +5,9 @@
     --hover-color:#fdd34d;
   --main-color:#fff;
 --btn-txt:#FFF0E7;
-  --hero-bg: radial-gradient(85.61% 61.6% at 50% 50%, rgba(253, 211, 77, 0.15) 0%, rgba(253, 211, 77, 0.00) 70%);
+ --adventages:#f6f6f6;
+
+--hero-bg: radial-gradient(85.61% 61.6% at 50% 50%, rgba(253, 211, 77, 0.15) 0%, rgba(253, 211, 77, 0.00) 70%);
 }
 body{
     font-family: "Space Grotesk", sans-serif;
@@ -69,4 +71,101 @@ text-transform: uppercase;
 border-radius: 9999px;
 background: var(--active-color);
 padding: 12px 32px;
+}
+/* hero */
+.hero{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.hero_text{
+    
+}
+
+
+
+
+
+
+
+
+
+
+.hero-elem:first-child .hero_img
+{
+    width: 465.3px;
+    border-radius: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* advenages */
+.adventages{
+    background-color: var(--adventages);
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.adventages .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.advenages_div{
+    width: 552px;
+}
+.adadvenages_tittle{
+    align-self: stretch;
+color: var(--tittle-color);
+font-family: "Space Grotesk";
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -3px;
+margin-bottom: 39px;
+
+}
+.advenages_text{
+
+color: var(--text-color);
+font-family: "Be Vietnam Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.62;
+margin-bottom: 39px;
+}
+.advenages_span{
+
+color: var(--tittle-color);
+font-family: "Be Vietnam Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32.5px;
+border-bottom :4px solid var(--hover-color);
+line-height: ;
+}
+
+
+
+
+
+
+
+
+.advenages_img{
+    width: 552.0px;
+height: 736.0px;
+border-radius: 48px;
 }
