@@ -16,4 +16,7 @@ h1,h2,h3,p{
 }
 blockquote{
     margin: 0;
-}
+    }
+ th{
+        margin: 0 auto;
+    }
